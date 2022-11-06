@@ -100,10 +100,6 @@
         background-image: url("../img/perro.jpg");
      
     }
-    
-    .menu-navegacion{
-      background: aquamarine;
-    }
 }
 
 /* MAIN*/
@@ -151,5 +147,22 @@
 
 .beneficio3{
    background-image: url("../img/ayuda3.jpg");
+}
+
+.ayudas{
+    background: #f2f2f2;
+}
+
+.contenedor-imagenes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contenedor-imagenes img{
+    display: block;
+    width: 30%;
+    box-shadow: 0 0 8px rgb(0, 0, 0, .4);
+    margin-bottom: 40px;
 }
 
