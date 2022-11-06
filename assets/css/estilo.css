@@ -106,4 +106,50 @@
     }
 }
 
+/* MAIN*/
+
+.titulo-seccion{
+    text-align: center;
+    font-size: 35px;
+    color:rgb(22, 150, 236);
+}
+
+.copy{
+    text-align: center;
+    color:#144794;
+    margin: 20px 0;
+}
+
+.beneficios{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.beneficio{
+    font-size: 25px;
+    padding-bottom: 30px;
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 20%;
+}
+
+.beneficio1{
+    background-image: url("../img/ayuda1.jpg");
+}
+
+.beneficio2{
+    background-image: url("../img/ayuda2.jpg");
+}
+
+.beneficio3{
+   background-image: url("../img/ayuda3.jpg");
+}
 
