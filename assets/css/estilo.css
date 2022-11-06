@@ -23,9 +23,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 80px;
     background: #2E86C1;
-    margin-right: 5PX;
+  
 }
 
 .logo{
@@ -45,6 +45,7 @@
 }
 
 .enlaces a{
+    font-size: 20px;
     text-decoration: none;
     color: white;
     padding-left: 10px;
@@ -93,15 +94,6 @@
     text-decoration: none;
     border-radius: 20px;
 }
-
-@media (max-width: 750px){
-    .hero{
-        height: 500px;
-        background-image: url("../img/perro.jpg");
-     
-    }
-}
-
 /* MAIN*/
 
 .titulo-seccion{
@@ -149,6 +141,8 @@
    background-image: url("../img/ayuda3.jpg");
 }
 
+/*Ayudas*/
+
 .ayudas{
     background: #f2f2f2;
 }
@@ -166,3 +160,22 @@
     margin-bottom: 40px;
 }
 
+/*footer*/
+footer{
+    background: #537c97;
+}
+footer .titulo-seccion{
+    color:white;
+}
+footer .copy{
+    color: white;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales i{
+    font-size: 30px;
+    padding: 0 20px;
+}
