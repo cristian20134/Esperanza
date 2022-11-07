@@ -29,11 +29,11 @@
 
 .logo{
     height: 70px;
-    
 }
 
 .logo img{
     display: block;
+    width: 100px;
     height: 100%;
     padding-left: 20px;
     margin-left: 20px;
