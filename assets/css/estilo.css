@@ -24,18 +24,19 @@
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background: #2E86C1;
-  
+    background: #1e577c;
 }
 
 .logo{
     height: 70px;
+    
 }
 
 .logo img{
     display: block;
     height: 100%;
     padding-left: 20px;
+    margin-left: 20px;
 }
 
 .enlaces li{
@@ -48,7 +49,12 @@
     font-size: 20px;
     text-decoration: none;
     color: white;
-    padding-left: 10px;
+    padding: 10px;
+}
+
+li a.active, a:hover{
+    background: #3ea7f2;
+    border-radius: 10px;
 }
 
 /* Hero */
@@ -180,7 +186,7 @@ footer .copy{
     padding: 0 20px;
 }
 
-
+/*pagina Nosotros*/
 
 .nosotros{
     height: 600px;
@@ -214,13 +220,15 @@ footer .copy{
     text-align: justify;
 }
 
+/*Campaña*/
+
 .campaña{
     height: 800px;
-    background-image: url("../img/c3.jpg");
+    background-image: url("../img/mano.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    color:white;
+    color:black;
 }
 
 .contenedor-campaña{
@@ -262,15 +270,18 @@ footer .copy{
     background-image: url("../img/c3.jpg");
 }
 
+/*Contacto*/
+
 .formulario{
     height: 550px;
     background-image: url("../img/perroygatos.jpg");
     background-position: center;
     background-size:cover;
-    background-attachment: fixed;   
+    background-attachment: fixed;
+    padding-top: 30px;   
 }
 
-form{
+.formulario form{
     width: 500px;
     margin: auto;
     background: rgba(0,0,0, 0.4);
@@ -278,7 +289,7 @@ form{
     border-radius: 7px;
 }
 
-h2{
+.formulario h2{
     color: white;
     text-align: center;
     margin: 0;
@@ -286,7 +297,7 @@ h2{
     margin-bottom: 20px;
 }
 
-input, textarea{
+.formulario input, textarea{
     width: 100%;
     margin-bottom: 30px;
     padding: 7px;
@@ -294,7 +305,7 @@ input, textarea{
     border: none;
 }
 
-textarea{
+.formulario textarea{
     min-height: 100px;
     max-height: 200px;
     max-width: 100%;
@@ -313,8 +324,9 @@ textarea{
     }
     .menu-navegacion{
         flex-direction: column;
-        height: 120px;
+        height: 150px;
         justify-content: space-evenly;
+        padding-bottom: 2px;
     }
     .hero h1{
         font-size: 36px;
@@ -330,22 +342,29 @@ textarea{
         margin-bottom: 40px;
     } 
     
+    .nosotros{
+        background-image: url("../img/perro_0.jpg");
+        color: black;
+        }
+
     .nosotros h1{
-        font-size: 36px;
+        font-size: 25px;
     }
 
     .nosotros p{
         font-size: 20px;
     }
-
+    .campaña{
+        background-image: url("../img/55.png");
+        color:black;
+    }
     .campaña h1{
         font-size: 20px;
-        color:black;
     }
     .campaña p{
         font-size: 17px;
     }
-    form{
-        width: 80%;
+    .formulario form{
+        width: 90%;
     }
 }
