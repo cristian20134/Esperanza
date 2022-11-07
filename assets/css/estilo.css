@@ -237,6 +237,7 @@ footer .copy{
     font-weight: 700;
     margin-bottom: 30px;
 }
+
 .campaña p{
     font-size: 30px;
     font-weight: 500px;
@@ -244,6 +245,7 @@ footer .copy{
     padding: 50px;
     text-align: justify;
 }
+
 .campaña1{
     background-image: url("../img/c1.jpg");
 }
@@ -255,9 +257,56 @@ footer .copy{
 .campaña3{
    background-image: url("../img/c3.jpg");
 }
+
 .campaña4{
     background-image: url("../img/c3.jpg");
 }
+
+.formulario{
+    height: 550px;
+    background-image: url("../img/perroygatos.jpg");
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;   
+}
+
+form{
+    width: 500px;
+    margin: auto;
+    background: rgba(0,0,0, 0.4);
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 7px;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background: rgb(99, 105, 103);
+    color: white;
+    padding: 20px; 
+    border-radius: 10px;  
+}
+
 @media screen and (max-width:800px) {
     .hero{
         background-image: url("../img/perro.jpg"); 
@@ -295,5 +344,8 @@ footer .copy{
     }
     .campaña p{
         font-size: 17px;
+    }
+    form{
+        width: 80%;
     }
 }
