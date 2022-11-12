@@ -95,14 +95,14 @@
     display: block;
     margin: 0 auto;
     padding: 15px 0;
-    background: #64B5F6;
+    background: #1e577c;
     color:white;
     text-decoration: none;
     border-radius: 20px;
 }
 
 .contenedor-textos a:hover{
-    background: #1e577c;
+    background: #64B5F6;
 }
 /* MAIN*/
 
