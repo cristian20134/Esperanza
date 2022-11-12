@@ -5,12 +5,11 @@
 }
 
 .body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .contenedor{
     width: 100%;
-    max-width: 1400px;
     margin: auto;
     overflow: hidden;
     padding: 60px 0;
@@ -42,26 +41,27 @@
 .enlaces li{
     list-style: none;
     display: inline-block;
-    padding-right: 20px;
 }
 
 .enlaces a{
     font-size: 20px;
     text-decoration: none;
     color: white;
-    padding: 10px;
+    padding: 15px;
+    margin-right: 5px;
 }
 
-li a.active, a:hover{
+.enlaces li a:hover{
     background: #3ea7f2;
     border-radius: 10px;
+    padding: 20px 15px;
 }
 
 /* Hero */
 
 .hero{
     height: 600px;
-    background-image: url("../img/perroygatos.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../img/perroygatos.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -99,6 +99,10 @@ li a.active, a:hover{
     color:white;
     text-decoration: none;
     border-radius: 20px;
+}
+
+.contenedor-textos a:hover{
+    background: #1e577c;
 }
 /* MAIN*/
 
@@ -190,11 +194,12 @@ footer .copy{
 
 .nosotros{
     height: 600px;
-    background-image: url("../img/gato.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/gato.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     color:white;
+    font-weight: bold;
     }
     
 .contenedor-nosotros{
@@ -224,11 +229,12 @@ footer .copy{
 
 .campaña{
     height: 800px;
-    background-image: url("../img/mano.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/mano.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    color:black;
+    color:white;
+    font-weight: bold;
 }
 
 .contenedor-campaña{
@@ -311,12 +317,18 @@ footer .copy{
     max-width: 100%;
 }
 
-#boton{
+.formulario .enviar{
     background: rgb(99, 105, 103);
     color: white;
     padding: 20px; 
     border-radius: 10px;  
 }
+
+.formulario .enviar:hover{
+    background:#1e577c;
+}
+
+
 
 @media screen and (max-width:800px) {
     .hero{
@@ -324,9 +336,8 @@ footer .copy{
     }
     .menu-navegacion{
         flex-direction: column;
-        height: 150px;
+        height: 160px;
         justify-content: space-evenly;
-        padding-bottom: 2px;
     }
     .hero h1{
         font-size: 36px;
@@ -343,8 +354,9 @@ footer .copy{
     } 
     
     .nosotros{
-        background-image: url("../img/perro_0.jpg");
-        color: black;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/perro_0.jpg");
+        height: 650px;
+        color: white;
         }
 
     .nosotros h1{
@@ -355,14 +367,19 @@ footer .copy{
         font-size: 20px;
     }
     .campaña{
-        background-image: url("../img/55.png");
-        color:black;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/55.png");
+        height: 100%;
+        color: white;
+      
+
     }
     .campaña h1{
-        font-size: 20px;
+        font-size: 30px;
+        margin-top: 30px;
+
     }
     .campaña p{
-        font-size: 17px;
+        font-size: 20px;
     }
     .formulario form{
         width: 90%;
